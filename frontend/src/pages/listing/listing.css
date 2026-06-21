@@ -1,0 +1,23 @@
+.listingPage{width: 100%; padding: 30px 0px;}
+.listingPage .breadcrump{width: 100%; height: auto; background:url('../../assests/images/header-bg.png'); padding: 70px 80px; border-radius: 20px; background-size: cover;}
+.listingPage .breadcrump h1{color: #000; font-weight: bold; opacity: 0.8; font-size: 48px; margin-bottom: 15px;}
+.listingPage .breadcrump .listname{display: flex;  align-items: center;}
+.listingPage .breadcrump .listname li{list-style: none; margin-right: 10px; display: inline-flex; align-items: center;}
+.listname li a{ color: #7E7E7E; font-size: 16px; font-size: 15px; font-weight: 600;}
+.listname li:hover{color: #FDC040;}
+.listname li a:hover{color: #FDC040;}
+.breadcrump svg{margin: 0px 3px;}
+.listdata{width: 100%; padding: 25px 0px;}
+.listdata .row{display: flex;}
+.listdata .row .sidebarWrapper{width: 20%;}
+.listdata .row .sidebarWrapper .col-1{ position: sticky; top: 75px;}
+.right-Content{width: 80%;}
+.right-Content .right-Content-row{  display: flex; padding: 0px 15px; flex-wrap: wrap;}
+.right-Content .right-Content-row .item{ width: 20%; padding: 10px 5px;}
+.right-Content .productSort{ width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0px 22px; padding-top: 30px;}
+.productSort .sort-Show{display: flex;}
+.productSort .sort-Show .show{width: 140px; position: relative; margin-right: 14px;}
+.productSort .sort-Show .show .accountMenu{ width: 100%; padding: 5px 2px; top: 42px; right: -13px;}
+.productSort .sort-Show .Sort-btn{ width: 100%; border: 1px solid #ccc; padding: 8px; margin: 0px 10px; text-transform: capitalize; font-size: 13px; color: #7E7E7E; font-weight: 500;}
+.productSort .sort-Show .Sort-btn:hover{box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);}
+.productSort .sort-Show .Sort-btn svg{ font-size: 16px; color: #7E7E7E; margin-right: 5px;}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+
+.filtterTab li {
+
+    list-style: none;
+}
+.filtterTab li:hover{
+    color: #3bb77e;
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in;
+}
+
+.filtterTab li a {
+    color: #5a5353;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.filtterTab li a:hover{
+     color: #3bb77e;
+         transition: all 0.3s ease-in;
+
+}

@@ -1,0 +1,134 @@
+.productCard {
+    position: relative;
+    background: #fff;
+    border-radius: 12px;
+    padding: 50px 15px;
+    height: 100%;
+    border: 1px solid #eee;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productCard:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE */
+.imgWrapper {
+    position: relative;
+    text-align: center;
+}
+
+.imgWrapper img {
+    height: 200px;
+    object-fit: contain;
+}
+
+/* BADGES */
+.badge.discount {
+    position: absolute;
+    background: #3bb77e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    width: 50px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    border-bottom-right-radius: 35px;
+}
+
+.badge.tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #20c997;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* HOVER ACTIONS */
+.hoverActions {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.productCard:hover .hoverActions {
+    opacity: 1;
+}
+
+.hoverActions button {
+    background: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* INFO */
+.productInfo .category {
+    font-size: 12px;
+    color: #999;
+}
+
+.productInfo .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.productInfo .brand {
+    font-size: 15px;
+    color: #666;
+}
+
+.productInfo .brand b {
+    color: #20c997;
+}
+
+/* PRICE */
+.priceBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.newPrice {
+    color: #3bb77e;
+    font-weight: bold;
+}
+
+.oldPrice {
+    margin-left: 6px;
+    text-decoration: line-through;
+    color: #999;
+    font-size: 13px;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

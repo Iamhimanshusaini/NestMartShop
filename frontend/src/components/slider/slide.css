@@ -1,0 +1,68 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+
+.homeSlider {
+    padding: 30px 0px;
+}
+
+.item img {
+    width: 100%;
+}
+
+.mainSlider {
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.slick-arrow {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 15px;
+}
+
+.slick-next {
+    right: 10px !important;
+}
+
+.slick-prev {
+    left: 10px !important;
+}
+
+.slick-next,
+.slick-prev {
+    z-index: 98;
+    padding: 0 !important;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.slick-prev:hover {
+    background-color: #3BB77E;
+    color: #fff;
+
+}
+
+.slick-next:hover {
+    background-color: #3BB77E;
+}
+.slick-next:hover::before{
+    color: #fff !important;
+
+}
+
+
+.slick-prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+
+.slick-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: rgba(0, 0, 0, 0.5)
+}
